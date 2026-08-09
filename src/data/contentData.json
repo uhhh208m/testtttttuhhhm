@@ -1,0 +1,95 @@
+{
+  "hero": {
+    "title": "BATTLE IN STYLE",
+    "subtitle": "SỰ KIỆN MÙA HÈ RỰC LỬA 2026",
+    "date": "09.08 - 31.08.2026",
+    "ctaText": "THAM GIA CHIẾN DỊCH",
+    "backgroundImage": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80&w=2000"
+  },
+  "articles": [
+    {
+      "id": "article-1",
+      "title": "Bản Cập Nhật Mới",
+      "summary": "Chi tiết bản cập nhật OB41 với nhiều thay đổi hấp dẫn về vũ khí và bản đồ.",
+      "image": "/booyah.png",
+      "date": "10.08.2026"
+    },
+    {
+      "id": "article-2",
+      "title": "Sự Kiện Mùa Hè",
+      "summary": "Tham gia ngay chuỗi sự kiện mùa hè để nhận hàng ngàn phần quà giá trị.",
+      "image": "/booyah.png",
+      "date": "12.08.2026"
+    },
+    {
+      "id": "article-3",
+      "title": "Giải Đấu Thể Thao Điện Tử",
+      "summary": "Theo dõi giải đấu eSports lớn nhất năm với tổng giải thưởng lên tới 5 tỷ VNĐ.",
+      "image": "/booyah.png",
+      "date": "15.08.2026"
+    }
+  ],
+  "schedule": {
+    "title": "LỊCH SỰ KIỆN",
+    "events": [
+      {
+        "id": "event-1",
+        "date": "09.08.2026",
+        "name": "Đăng Nhập Nhận Quà",
+        "description": "Đăng nhập ngay để nhận vé quay kim cương và hòm trang phục giới hạn."
+      },
+      {
+        "id": "event-2",
+        "date": "15.08.2026",
+        "name": "Chạy Bo Sinh Tồn",
+        "description": "Hoàn thành 5 trận đấu xếp hạng để nhận trang phục Mùa Hè cực ngầu."
+      },
+      {
+        "id": "event-3",
+        "date": "22.08.2026",
+        "name": "Giải Đấu Tử Chiến",
+        "description": "Thách đấu cùng hàng triệu người chơi khác, giành top 1 và lấy Booyah!"
+      }
+    ]
+  },
+  "rewards": {
+    "title": "KHO BÁU ĐỘC QUYỀN",
+    "items": [
+      {
+        "id": "reward-1",
+        "name": "Trang Phục Huyền Thoại",
+        "image": "/logo.png",
+        "type": "Trang Phục"
+      },
+      {
+        "id": "reward-2",
+        "name": "M4A1 Hỏa Ngục",
+        "image": "/logo.png",
+        "type": "Vũ Khí"
+      },
+      {
+        "id": "reward-3",
+        "name": "Ba Lô Booyah",
+        "image": "/logo.png",
+        "type": "Phụ Kiện"
+      }
+    ]
+  },
+  "footer": {
+    "text": "© 2026 Bản quyền thuộc về uhhhm",
+    "links": [
+      {
+        "title": "Điều khoản",
+        "content": "Đây là các điều khoản dịch vụ khi tham gia sự kiện. Người chơi phải tuân thủ mọi quy định của ban tổ chức để đảm bảo tính công bằng và minh bạch trong suốt quá trình diễn ra sự kiện."
+      },
+      {
+        "title": "Bảo mật",
+        "content": "Thông tin cá nhân của người chơi sẽ được bảo mật tuyệt đối và chỉ được sử dụng cho mục đích trao giải. Chúng tôi cam kết không chia sẻ dữ liệu với bên thứ ba dưới mọi hình thức."
+      },
+      {
+        "title": "Cộng đồng",
+        "content": "Tham gia vào cộng đồng của chúng tôi trên các nền tảng mạng xã hội để không bỏ lỡ bất kỳ thông báo mới nào về sự kiện cũng như các cơ hội nhận quà hấp dẫn khác."
+      }
+    ]
+  }
+}
