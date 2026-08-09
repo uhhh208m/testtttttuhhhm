@@ -1,0 +1,6 @@
+{
+  "name": "Free Fire Event",
+  "description": "Website sự kiện game Free Fire với hiệu ứng GSAP",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
