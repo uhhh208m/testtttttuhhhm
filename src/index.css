@@ -1,0 +1,80 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Oswald", sans-serif;
+}
+
+:root {
+  color-scheme: dark;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+html, body, #root {
+  min-height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-sans);
+  background:
+    radial-gradient(circle at top, rgba(34, 211, 238, 0.18), transparent 30%),
+    radial-gradient(circle at 20% 20%, rgba(168, 85, 247, 0.14), transparent 22%),
+    linear-gradient(180deg, #09090b 0%, #111118 45%, #09090b 100%);
+  color: #fff;
+  overflow-x: hidden;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+::selection {
+  background: rgba(34, 211, 238, 0.9);
+  color: #020617;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgba(24, 24, 27, 0.9);
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(180deg, rgba(34, 211, 238, 0.85), rgba(168, 85, 247, 0.85));
+  border-radius: 999px;
+  border: 2px solid rgba(9, 9, 11, 0.9);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(180deg, rgba(34, 211, 238, 1), rgba(168, 85, 247, 1));
+}
+
+.logo-mask {
+  -webkit-mask-image: url('/logo.png');
+  mask-image: url('/logo.png');
+  -webkit-mask-size: contain;
+  mask-size: contain;
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+  -webkit-mask-position: center;
+  mask-position: center;
+}
+
+.animate-sweep-hover {
+  animation: sweep 1.5s ease-in-out infinite;
+}
+
+@keyframes sweep {
+  0% {
+    transform: translateX(-150%) skewX(-20deg);
+  }
+  100% {
+    transform: translateX(300%) skewX(-20deg);
+  }
+}
